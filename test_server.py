@@ -11,7 +11,7 @@ demo_email ="""
     John
 """
 
-test_url = "http://127.0.0.1:10001"
+test_url = "https://gmail-gpt-gyxz.onrender.com"
 response = requests.post(
     test_url,
     json={

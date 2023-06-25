@@ -43,6 +43,10 @@ function_descriptions = [
                 "next_action": {
                     "type": "string",
                     "description": "what is the next action to take for this email? e.g. reply, forward, archive, delete, etc."
+                },
+                "summary": {
+                    "type": "string",
+                    "description": "a summary of this email within 100 words"
                 }
             },
             "required": ["company_name", "use_case", "priority", "category", "next_action"]
