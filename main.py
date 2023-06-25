@@ -82,6 +82,7 @@ def analyse_email(email: Email):
     amount = eval(arguments).get("amount")
     category = eval(arguments).get("category")
     next_action = eval(arguments).get("next_action")
+    summary = eval(arguments).get("summary")
 
     return {
         "company_name": company_name,
@@ -90,5 +91,6 @@ def analyse_email(email: Email):
         "product": product,
         "amount": amount,
         "category": category,
-        "next_action": next_action
+        "next_action": next_action,
+        "summary": summary
     }
